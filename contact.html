@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOI App Landing Page</title>
+    <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- Menú -->
+    <header class="foi-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.svg" alt="Huertitas">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">contact <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+<!-- Menú fin -->
+
+<!-- Título y sub inicial -->
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h2>Tell us about yourself</h2>
+                <h5>Whether you have questions or you would just like to say hello, contact us.</h5>
+            </section>
+            <!-- Título y sub inicial fin-->
+
+            <!-- Iconos de contácto -->
+            <section class="contact-content">
+                <div class="contact-widget media">
+                    <img src="assets/images/icon-4.png" alt="monitor" width="50px">
+                    <div class="media-body">
+                        <h6 class="widget-title">Production Office</h6>
+                        <p class="widget-content">hello@youriste.com</p>
+                    </div>
+                </div>
+                <div class="contact-widget media">
+                    <img src="assets/images/icon-5.png" alt="book" width="40px">
+                    <div class="media-body">
+                        <h6 class="widget-title">Administration Office</h6>
+                        <p class="widget-content">hello@youriste.com</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Iconos de contácto fin -->
+
+            <!-- Formulario -->
+            <section class="contact-form-wrapper">
+                <form action="index.html">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="name">YOUR NAME <sup>*</sup></label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name *">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">YOUR EMAIL ADDRESS <sup>*</sup></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="feeney.matteo@schmeler.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="subject">SUBJECT <sup>*</sup></label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Development">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="phone">YOUR PHONE NUMBER <sup>*</sup></label>
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="635-396-9570">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <label for="message">HOW CAN WE HELP YOU? <sup>*</sup></label>
+                            <textarea name="message" id="message" class="form-control" rows="7" placeholder="Hi there, I would like to ..."></textarea>
+                        </div>
+                    </div>
+                    <!-- Formulario fin -->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary mb-4">Submit</button>
+                        <p class="form-footer-text">We'll get back to you in 1-2 business days.</p>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+<!-- Footer -->
+    <footer class="foi-footer text-white">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-xl-6 col-lg-7 col-md-8">
+                    <h2 class="mb-0">Do you want to know more or just have a question? write to us.</h2>
+                </div>
+                <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
+                    <a href="contact.html" class="btn btn-danger btn-lg">Contact form</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer fin -->
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/popper.js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
